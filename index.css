@@ -161,10 +161,20 @@ a {
 	border-radius: 1rem;
 }
 
+@media only screen and (max-width: 1100px) {
+	.hero {
+		height: max-content;
+		margin-bottom: 1.5rem;
+	}
+	.hero > .about {
+		margin: 3rem 0;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 	.hero > .about {
 		width: 35rem;
-		margin-right: 0rem;
+		margin: 0rem;
 	}
 	.hero > .about h1 {
 		font-size: 1.7rem;
