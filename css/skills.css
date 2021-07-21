@@ -1,0 +1,50 @@
+.skills {
+	display: flex;
+	position: relative;
+	background-color: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+}
+
+.skills svg {
+	margin: 0 2rem;
+	width: 200px;
+	height: auto;
+	fill: none;
+	/* stroke-width: 2; */
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	vertical-align: middle;
+}
+
+.skills-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills #node {
+	height: 53px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.skills {
+		height: max-content;
+	}
+
+	.skills .title {
+		margin-top: 2rem;
+	}
+
+	.skills-container {
+		flex-wrap: wrap;
+		margin-bottom: 2rem;
+	}
+
+	.skills #node {
+		width: 155px;
+	}
+}
