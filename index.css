@@ -101,6 +101,7 @@ a {
 	.nav-bar > .nav-link.active {
 		left: 0;
 		top: 60px;
+		z-index: 2;
 	}
 
 	.nav-bar > .nav-link.nav-link.active > li {
