@@ -157,8 +157,9 @@ a {
 .hero > .pic img {
 	width: 100%;
 	height: auto;
-	/* aspect-ratio:s auto 672 / 832; */
 	border-radius: 1rem;
+	/* aspect-ratio:s auto 672 / 832; */
+	/* filter: drop-shadow(-8px -8px 1px #f14a4a); */
 }
 
 @media only screen and (max-width: 1100px) {
