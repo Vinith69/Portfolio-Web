@@ -230,6 +230,7 @@ a {
 	height: 60vh;
 }
 
+.project .title,
 .skills .title,
 .contact .title,
 .hobbies .title {
@@ -421,6 +422,7 @@ a {
 	.contact {
 		height: max-content;
 	}
+	.project-container,
 	.contact-container {
 		flex-wrap: wrap;
 	}
