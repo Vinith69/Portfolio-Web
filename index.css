@@ -92,7 +92,7 @@ a {
 		flex-direction: column;
 		background-color: #fff;
 		width: 100%;
-		border-radius: 10px;
+		border-radius: 0 0 10px 10px;
 		text-align: center;
 		transition: 0.3s;
 		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
@@ -117,6 +117,15 @@ a {
 		cursor: pointer;
 	}
 
+	.bar {
+		background-color: #fff;
+	}
+
+	.hamburger.active .bar,
+	.nav-bar.active .bar {
+		background-color: #000;
+	}
+
 	.hamburger.active .bar:nth-child(2) {
 		opacity: 0;
 	}
@@ -132,7 +141,7 @@ a {
 /** --------------------------------------- nav end -------------------------------------------------------- */
 
 .hero {
-	height: 60vh;
+	height: 70vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -174,17 +183,41 @@ a {
 }
 
 @media only screen and (max-width: 700px) {
+	.hero {
+		height: 40vh;
+	}
+
 	.hero > .about {
 		width: 35rem;
 		margin: 0rem;
 	}
+
 	.hero > .about h1 {
 		font-size: 1.7rem;
 		line-height: 3.3rem;
+		color: #fff;
 	}
 
 	.hero > .pic {
-		width: 35%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+
+	.hero > .pic::after {
+		content: "";
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		display: block;
+		top: 0;
+		/* z-index: -1; */
+		background: rgba(0, 0, 0, 0.151);
+	}
+
+	.hero > .pic img {
+		border-radius: 0rem;
 	}
 }
 /** --------------------------------------- hero end -------------------------------------------------------- */
