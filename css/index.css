@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
 	.nav-bar {
 		justify-content: space-between;
 
-		background-color: transparent;
+		background-color: red;
 	}
 	.nav-bar > .nav-link {
 		position: fixed;
