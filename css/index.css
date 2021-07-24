@@ -22,6 +22,24 @@ a {
 	text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+	width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+	/* background: #d1d1d1; */
+	background: transparent;
+
+	/* margin-bottom: 30rem; */
+}
+
+body::-webkit-scrollbar-thumb {
+	/* background-color: #e54b4b; */
+	background-color: #353535;
+	border-radius: 1rem;
+	border: 3px solid transparent;
+}
+
 .nav-bar {
 	height: 10vh;
 	display: flex;
