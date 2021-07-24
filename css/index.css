@@ -290,7 +290,8 @@ a {
 	position: absolute;
 	width: 35px;
 	height: 17px;
-	left: calc(50% - 10px);
+	/* left: calc(50% - 10px); */
+
 	/* left: calc(50% - 17px); */
 }
 
@@ -300,7 +301,9 @@ a {
 	position: absolute;
 	width: 30px;
 	height: 2px;
-	left: calc(50% - 45px);
+	/* left: calc(50% - 45px); */
+	left: calc(50% - 55px);
+
 	/* left: calc(50% - 45px); */
 
 	border-radius: 5px;
@@ -311,7 +314,9 @@ a {
 }
 
 .title h1:before {
-	left: calc(50% + 25px);
+	/* left: calc(50% + 25px); */
+	left: calc(50% + 15px);
+
 	/* left: calc(50% + 17px); */
 }
 
