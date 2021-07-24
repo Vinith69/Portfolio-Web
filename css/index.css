@@ -29,7 +29,8 @@ a {
 	align-items: center;
 	padding: 1rem 1.5rem;
 	transition: 0.3s ease-in-out;
-	position: relative;
+	/* position: relative; */
+	position: fixed;
 	width: 100%;
 }
 
