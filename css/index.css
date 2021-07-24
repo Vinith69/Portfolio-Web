@@ -124,6 +124,7 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 700px) {
 	.nav-bar {
 		justify-content: space-between;
+		background-color: transparent;
 	}
 	.nav-bar > .nav-link {
 		position: fixed;
