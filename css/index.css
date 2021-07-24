@@ -188,7 +188,8 @@ a {
 .hero > .pic img {
 	width: 100%;
 	height: auto;
-	border-radius: 1rem;
+	/* border-radius: 1rem; */
+	border-radius: 50%;
 	/* aspect-ratio:s auto 672 / 832; */
 	/* filter: drop-shadow(-8px -8px 1px #f14a4a); */
 }
