@@ -50,6 +50,7 @@ body::-webkit-scrollbar-thumb {
 	position: relative;
 	/* position: fixed; */
 	width: 100%;
+	background-color: #f8f9fa;
 }
 
 .nav-bar.active {
@@ -185,7 +186,8 @@ body::-webkit-scrollbar-thumb {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background-color: #f5e4dc;
+	background-color: #f8f9fa;
+	/* background-color: #f5e4dc; */
 }
 
 .hero > .about {
